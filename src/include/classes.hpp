@@ -1,6 +1,9 @@
 #include "core_funcs.hpp"
-Sound clicksound;
-Spritesheet button_sprites;
+namespace more_base_variables{
+    Sound clicksound;
+    Spritesheet button_sprites;
+};
+using namespace more_base_variables;
 class Button {
     public:
     int current[2] = {0, 0};
