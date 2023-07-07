@@ -1,5 +1,5 @@
 # SDL2-web-template
-A template for an SDL2 web game made using C++. Use this as a sort of blank slate with all the basic classes, functions and necessary variables you need to create your own web games. To compile your game made with this template, you can use the makefile or run ```em++ main.cpp -s WASM=1 -s USE_SDL=2 -s USE_SDL_IMAGE=2 -s SDL2_IMAGE_FORMATS='['png']' -s USE_SDL_TTF=2 -s USE_SDL_MIXER=2 --preload-file src --preload-file assets -o index.js -std=c++20``` in your terminal, and run the ```index.html``` in localhost.
+A template for an SDL2 web game made using C++. Use this as a sort of blank slate with all the basic classes, functions and necessary variables you need to create your own web games. To compile your game made with this template, you must have emscripten installed. You can use the makefile or run ```em++ main.cpp -s WASM=1 -s USE_SDL=2 -s USE_SDL_IMAGE=2 -s SDL2_IMAGE_FORMATS='['png']' -s USE_SDL_TTF=2 -s USE_SDL_MIXER=2 --preload-file src --preload-file assets -o index.js -std=c++20``` in your terminal, and run the ```index.html``` in localhost.
 # Classes
 1) Image class (handles texture rendering for you)
 2) Sound class (handles audio playing for you, can play multiple sounds together using as many channels as you like if you modify the number in the Mix_AllocateChannels function on line 199 of core_funcs.hpp)
