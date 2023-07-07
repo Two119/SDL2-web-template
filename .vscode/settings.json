@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.tcc": "cpp",
+        "iostream": "cpp",
+        "sdl2_rotozoom.c": "cpp",
+        "string": "cpp",
+        "functional": "cpp",
+        "ostream": "cpp"
+    }
+}
